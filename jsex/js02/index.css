@@ -10,7 +10,9 @@ body {
 
 body input {
     width: -webkit-fill-available;
-    height: 20px;
+    height: 36px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .addOneNote,.delOneNote {
@@ -20,9 +22,11 @@ body input {
     padding: 10px;
     border: 1px solid;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .addOneNote {
+    margin-top: 20px;
     background-color: #000;     
 }
 
