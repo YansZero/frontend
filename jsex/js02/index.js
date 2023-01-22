@@ -6,6 +6,8 @@ const deleteNoteBtn = document.getElementById('deleteNoteBtn');
 const showList = document.getElementById('showList');
 const noteList=[];
 
+date.valueAsDate = new Date();
+
 //class
 // class RenderTemplate {
 //     appen() {   }
@@ -21,7 +23,7 @@ const noteList=[];
 //                     <p>Note-time: ${data.date}-${data.time}</p>
 //                 </div>
 //             </div>
-//             `
+//             `;
 //         });
 //         showList.innerHTML = contentStr;
 //     }
@@ -56,7 +58,7 @@ function refreshList() {
                 <p>Note-time: ${data.date}-${data.time}</p>
             </div>
         </div>
-        `
+        `;
     });
     showList.innerHTML = contentStr;
 }
