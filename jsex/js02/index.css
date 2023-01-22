@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+}
+.content {
+    margin: 20px;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body input {
+    width: -webkit-fill-available;
+    height: 20px;
+}
+
+.addOneNote,.delOneNote {
+    width: -webkit-fill-available;
+    margin-top: 10px;
+    color: #fff;   
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.addOneNote {
+    background-color: #000;     
+}
+
+.delOneNote {
+    background-color: darksalmon;
+}
+
+.show {
+    margin-top: 20px;
+    background-color: indianred;
+    border-radius: 8px;
+}
+
+.item {
+    padding: 20px;    
+    color: #fff;
+    border-bottom: 1px solid;
+    border-radius: 8px;
+}
